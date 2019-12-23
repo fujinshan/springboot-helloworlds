@@ -13,7 +13,7 @@ public class TemplateController {
     public String helloFtl(Map<String, Object> map)
     {
         map.put("hello","基于Freemarker from TemplateController.helloFtl");
-        return "helloFtl";
+        return "/helloFtl";
     }
 }
 
